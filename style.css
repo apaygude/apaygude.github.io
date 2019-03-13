@@ -90,6 +90,33 @@ a:hover{
     font-weight: 800;
     color: rgb(94, 79, 79);
 }
+.fa {
+    padding: 5px 4px;
+    font-size: 20px;
+    width: 27px;
+    height: 30px;
+    text-decoration: none;
+    margin: 2px 2px;
+  }
+
+.fa-google {
+    background-color: #dd4b39;
+    color: white
+}
+
+
+.fa-linkedin {
+    background-color: #007bb5;
+    color: white;
+}
+
+.fa-phone {
+    background-color: rgb(59, 56, 56);
+    color: white
+}
+.links {
+    margin-top: 40%;
+}
 
 /*-------About Me--------*/
 .about-me {
