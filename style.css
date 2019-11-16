@@ -7,15 +7,18 @@ html,
 body {
     height: 100%;
     scroll-behavior: smooth;
+    background: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url(img/cover1.jpg);
 }
 
 img {
     max-width: 100%;
 }
 .main {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/cover1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url(img/cover1.jpg);
     background-size: cover;
     height: 100%;
+    position: relative;
+    overflow-y : scroll;
 }
 
 .main-title{
@@ -120,7 +123,7 @@ a:hover{
 
 /*-------About Me--------*/
 .about-me {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('img/about.jpeg') left top no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
     background-size: cover;
     height: 100%;
 }
@@ -134,9 +137,8 @@ a:hover{
     background: rgba(255, 255, 255, 0.7) ;
     color: rgb(94, 79, 79);
     padding: 1.875rem;
-    margin: 30% 10% 9% 7%;
+    margin: 10% 10% 9% 30%;
     width: 40%;
-    float: left;
 
 
 }
@@ -144,11 +146,17 @@ a:hover{
 /*--------Education-------*/
 
 .education {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/cover1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0));
     background-size: cover;
     height: 100%;
     
    
+}
+#experience {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    background-size: cover;
+    height: 100%;
+
 }
 
 .education-col {
@@ -161,7 +169,7 @@ a:hover{
 /*--------SKILLS--------*/
 
 .my-skills{
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/cover1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0));
     background-size: cover;
     height: 100%;
 }
@@ -214,7 +222,7 @@ a:hover{
 /*---------Projects----------*/
 
 .projects {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/cover1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
     background-size: cover;
     height: 145%;
 
